@@ -1,7 +1,7 @@
-let word;
-let letters;
-let remaining_tests = 6;
-let number_trials_duplicate = 0;
+var word;
+var letters;
+var remaining_tests = 6;
+var number_trials_duplicate = 0;
 
 function addWord() {
 	word = document.getElementById("inputWord").value;
